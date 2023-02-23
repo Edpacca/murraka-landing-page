@@ -1,11 +1,11 @@
 <script lang="ts">
-    import Button from "./common/Button.svelte";
-    import Filters from "../assets/filters.svg";
+    import CogAnimation from "./animations/CogAnimation.svelte";
+import Button from "./common/Button.svelte";
 </script>
 
 <main>
 	<Button content="Isle of Murraka" onClick={() => {console.log("clicked")}}/>
-    <Filters/>
+    <CogAnimation/>
 </main>
 
 <style>
@@ -15,5 +15,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 </style>

@@ -21,6 +21,9 @@
         clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0 50%);
     }
 
+    button:hover {
+    }
+
     .content {
         color: rgb(255, 225, 149);
         filter: drop-shadow(1px 1px 2px orange);
